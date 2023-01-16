@@ -1,3 +1,19 @@
 .cards {
-    background-color: aqua;
+    background-color: rgb(63, 52, 51);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    .card {
+        width: calc(100% / 5 - 20px);
+        height: 200px;
+        margin: 40px;
+        text-align: center;
+        background-color: antiquewhite;
+
+        > * {
+            padding: 10px;
+        }
+    }
 }
