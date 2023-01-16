@@ -13,4 +13,6 @@ class PageController extends Controller
       
     return view('homepage', compact('movies'));
     }
-}
+
+   
+}   

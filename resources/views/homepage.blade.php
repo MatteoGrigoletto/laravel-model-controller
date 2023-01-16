@@ -3,4 +3,5 @@
 @section('main')
 
 @include('partials.cards')
+
 @endsection
